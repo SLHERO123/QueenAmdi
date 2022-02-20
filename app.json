@@ -1,20 +1,20 @@
 {
-    "name": "Queen Amdi 3.6.2v",
-    "description": "Queen Amdi is a chat bot for WhatsApp. 💃🏻❤️",
+    "name": "S.H.B.KING 1.0.v",
+    "description": "S.H.B.KING is a chat bot for WhatsApp. 👑💘💥",
     "keywords": [
-        "Queen Amdi",
+        "S.H.B.KING",
         "WhatsApp",
         "User Bot",
         "Chat bot",
         "Button bot",
-        "Black Amda"
+        "S.H.B.Academy"
     ],
     "website": "https://amdaniwasa.com",
     "logo": "https://amdaniwasa.com/assets/QAAppjson.gif",
     "success_url": "https://dashboard.heroku.com/apps/",
     "stack": "container",
     "env":{
-        "AMDI_SESSION": {
+        "S.H.B._SESSION": {
             "description": "Paste the session code you received after scanning the QR from https://replit.com/@BlackAmda/Queen-Amdi-QR-Code",
             "required": true
         },
@@ -38,7 +38,7 @@
             "required": true,
             "value": "default"
         },
-        "AMDI_CHAT": {
+        "S.H.B._CHAT": {
             "description": "Full Artificial intelligence(AI) based chat bot feature. Type 'true' to enable and type 'false' to disable.",
             "required": true,
             "value": "false"
@@ -46,7 +46,7 @@
         "ANTIBAD": {
             "description": "Bad word protection for groups. Type 'true' to enable and type 'false' to disable Anti-Bad.",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "ANTIBUG": {
             "description": "Bug hole protection for groups. Type 'true' to enable and type 'false' to disable Anti-Bug.",
@@ -99,7 +99,7 @@
         "HANDLERS": {
             "description": "Enter bot prefix to use commands. (Don't delete ^[ ])",
             "required": true,
-            "value": "^[.!#]"
+            "value": "^[.!!#$#]"
         },
         "IMGBB": {
             "description": "Paste your imgbb API to change ALIVE,Welcome,Bye pictures by a command. (Visit https://imgbb.com/ and signup there. And get an API key from https://api.imgbb.com/)",
@@ -113,17 +113,17 @@
         "LANGUAGE": {
             "description": "Bot language. Type EN for English and type SI for Sinhala.",
             "required": true,
-            "value": "EN"
+            "value": "SI"
         },
         "MAX_SIZE": {
             "description": "Set maximum media file sending size. Type size in MB. To best performance keep 90mb.",
             "required": true,
-            "value": "90"
+            "value": "1000"
         },
         "MENU": {
             "description": "Set your command to get full command list.",
             "required": true,
-            "value": "panel"
+            "value": "SHB"
         },
         "MUTE_MESSAGE": {
             "description": "The message that appears when typing the '.mute' command. If you do not want to change it, keep 'default'.",
@@ -142,7 +142,7 @@
         "PANEL_EMOJI": {
             "description": "You can change panel emojis. (Make sure to split emojis with / )",
             "required": true,
-            "value": "📘/📖"
+            "value": "💥/🌟"
         },
         "PROMOTE_MESSAGE": {
             "description": "The message that appears when typing the '.promote' command. If you do not want to change it, keep 'default'.",
